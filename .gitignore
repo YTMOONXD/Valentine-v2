@@ -1,1 +1,8 @@
-
+/node_modules
+database.db
+name.js
+no.js
+yes.js
+package.json
+package-lock.json
+server.js
