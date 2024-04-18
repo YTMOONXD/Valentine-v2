@@ -37,6 +37,22 @@ main div #no{
     border: none;
     cursor: pointer;
 }
+button{
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #be81be;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#secret{
+    margin-top: 100px;
+    color: white;
+    
+}
 input{
     text-decoration: none;
     font-family: 'Protest Riot', sans-serif;
