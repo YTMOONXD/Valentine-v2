@@ -1,3 +1,7 @@
+*{
+    font-family: 'Protest Riot', sans-serif;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -49,6 +53,7 @@ button{
     cursor: pointer;
 }
 #secret{
+    font-family: 'Protest Riot', sans-serif;
     margin-top: 300px;
     color: white;
     
