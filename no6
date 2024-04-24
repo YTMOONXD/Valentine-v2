@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <title>Why :(</title>
+</head>
+<body style="background-color: black;">
+    <main>
+    <img src="imgs/Screenshot 2024-02-05 023200.png" width="300px" alt="">
+        <h3 style="margin-bottom: 100px; color: rgb(255, 255, 255);">. . .</h3>
+    </main>
+</body>
+
+</html>

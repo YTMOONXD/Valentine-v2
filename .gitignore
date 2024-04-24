@@ -7,8 +7,4 @@ yes.js
 package.json
 package-lock.json
 server.js
-<<<<<<< HEAD
-
-=======
->>>>>>> ab96d8e5fe6c3a3a2506faad7dd9c1bc8a75c7a1
 *.html
