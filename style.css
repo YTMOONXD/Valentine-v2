@@ -1,0 +1,75 @@
+*{
+    font-family: 'Protest Riot', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+    flex-direction: column;
+    font-family: 'Protest Riot', sans-serif;
+}
+main h3{
+    margin: 30px;
+    color: #bd468d;
+    font-weight: bold;
+    font-size: 30px;
+}
+div{
+    flex-direction: row;
+}
+main div #yes{
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #49b95f;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+main div #no{
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ce5252;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+button{
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #be81be;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+#secret{
+    font-family: 'Protest Riot', sans-serif;
+    margin-top: 300px;
+    color: white;
+    
+}
+input{
+    text-decoration: none;
+    font-family: 'Protest Riot', sans-serif;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 228, 232);
+}
+@media screen and (max-width: 700px){
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
