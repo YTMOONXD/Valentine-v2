@@ -12,17 +12,21 @@ document.getElementById('yes').addEventListener('click', function() {
     .then(response => {
     if (!response.ok) {
         throw new Error('Network response was not ok');
-        window.location.href = "no6.html";
     }
         return response.json();
     })
     .then(data => {
         console.log('Data sent successfully:', data);
-        window.location.href = "no6.html";
+        localStorage.setItem('yon', 'YES!');
+        let a = localStorage.getItem('yon');
+        console.log(typeof a);
+        if(a == 'YES!'){
+            window.location.href = "yes.html";
+        };
         })
     .catch(error => {
-        console.error('Error sending data:', error);
-        window.location.href = "no6.html";
+        alert('Womp Womp the server is closed ', error);
+        console.log("the error that make that happen ", error)
     });
 });  
   

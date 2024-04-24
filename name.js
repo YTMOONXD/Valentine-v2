@@ -11,6 +11,7 @@ document.getElementById('submit').addEventListener('click', function() {
   }
   else{
     localStorage.setItem('name', name);
+    localStorage.setItem('yon', '');
     window.location.href = "start.html";
   }
 });
