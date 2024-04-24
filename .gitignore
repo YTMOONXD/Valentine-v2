@@ -1,10 +1,2 @@
-/node_modules
-/imgs
 database.db
-name.js
-no.js
-yes.js
-package.json
-package-lock.json
-server.js
-*.html
+
